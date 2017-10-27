@@ -3,10 +3,10 @@
 # Cheap chinese IP camera with H264 encoding based on Hisilicon 8M (Hi3518E) chip
 
 Video stream url for VLC/DVR:
-  * rtsp://192.168.1.93:554/user=admin&password=&channel=&stream=.sdp?real_stream--rtp-caching=100
+  * rtsp://192.168.1.123:554/user=admin&password=&channel=&stream=.sdp?real_stream--rtp-caching=100
 
 Telnet access
-  * telnet 192.168.1.10 23
+  * telnet 192.168.1.123 23
   * Localhost login: root
   * Password: xmhdipc
 
@@ -15,7 +15,7 @@ Configuration placed at this path:
 
 To change static IP Address:
   * armbenv
-  * netinit eth0 192.168.1.93
+  * netinit eth0 192.168.1.123
 
 For enabling DHCP
   * echo 1 > mnt/mtd/Config/dhcp.cfg
@@ -130,11 +130,11 @@ LibCrypto : g_cryptotype = 2
 LIBDVR: Complied at Jun 12 2015 19:34:48 SVN:1028
 bootdelay = 1
 baudrate = 115200
-serverip = 192.168.1.107
-ipaddr = 192.168.1.93
+serverip = 192.168.1.1
+ipaddr = 192.168.1.123
 netmask = 255.255.255.0
-ethaddr = 00:12:13:11:8e:e0
-HWID = 8043420004048425
+ethaddr = 00:12:13:xx:xx:xx
+HWID = 8043420004xxxxxx
 ob_start = 0
 ob_data = 82
 ```
