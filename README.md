@@ -181,3 +181,7 @@ if [ -f /mnt/custom/extapp.sh ];then
 fi
 dvrHelper /lib/modules /usr/bin/Sofia 127.0.0.1 9578 1 &
 ```
+
+* Horror
+The password must be shorter than 6 char !
+In case you enter longer password the CMS will truncate to the first 6 chars...without notification
