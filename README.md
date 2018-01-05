@@ -27,6 +27,13 @@ Interesting links:
   * http://marcusjenkins.com/linux/hacking-cheap-ebay-ip-camera/
   * http://www.hkvstar.com/technology-news/china-ip-camera-configuration-firmware.html
 
+Horror
+  * The password must be shorter than 6 char!
+    In case you enter a longer password the CMS will truncate to the first 6 chars... Without any notification
+
+Commercial "data"-sheet
+  * http://support.hkvstar.com/file/Hi3518E.pdf
+
 
 ```
 # cat /proc/cpuinfo
@@ -182,6 +189,4 @@ fi
 dvrHelper /lib/modules /usr/bin/Sofia 127.0.0.1 9578 1 &
 ```
 
-* Horror
-The password must be shorter than 6 char !
-In case you enter longer password the CMS will truncate to the first 6 chars...without notification
+
