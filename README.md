@@ -1,13 +1,18 @@
 # Hi3518E-IP-Camera
 
-# Cheap chinese IP camera with H264 encoding based on Hisilicon 8M (Hi3518E) chip
+# Low-cost IP camera with H264 encoding based on Hisilicon 8M (Hi3518E) chip
+
+Default settings
+  * IP address: 192.168.1.10
+  * Username: admin
+  * Password: 'empty'
 
 Video stream url for VLC/DVR:
   * rtsp://192.168.1.123:554/user=admin&password=&channel=&stream=.sdp?real_stream--rtp-caching=100
 
 Telnet access
-  * telnet 192.168.1.123 23
-  * Localhost login: root
+  * telnet 192.168.1.123:23 or 192.168.1.123:9527
+  * Username: root
   * Password: xmhdipc
 
 Configuration placed at this path:
@@ -22,6 +27,7 @@ For enabling DHCP
 
 Show single frame
   * http://192.168.1.123/webcapture.jpg?command=snap&chanel=1
+    Note that "chanel=1" is spelled with one "n".
 
 Interesting links:
   * http://marcusjenkins.com/linux/hacking-cheap-ebay-ip-camera/
@@ -29,7 +35,7 @@ Interesting links:
 
 Horror
   * The password must be shorter than 6 char!
-    In case you enter a longer password the CMS will truncate to the first 6 chars... Without any notification
+    In case you enter a longer password the CMS will truncate to the first 6 chars... Without any notification!
 
 Commercial "data"-sheet
   * http://support.hkvstar.com/file/Hi3518E.pdf
