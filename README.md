@@ -119,7 +119,7 @@ busybox    egrep      himm       killall    mv         rmdir      touch      xar
 LibCrypto : g_cryptotype = 2
 **********************************************************************
 |                      SYSTEM INFO
-|                 ID:           8043420004048425
+|                 ID:           0000000000000000
 |       product type:           50H10L
 |            product:           HI3518E_50H10L_S39
 |      video channel:           1
@@ -147,7 +147,7 @@ serverip = 192.168.1.1
 ipaddr = 192.168.1.123
 netmask = 255.255.255.0
 ethaddr = 00:12:13:xx:xx:xx
-HWID = 8043420004xxxxxx
+HWID = 0000000000000000
 ob_start = 0
 ob_data = 82
 ```
