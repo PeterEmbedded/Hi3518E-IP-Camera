@@ -40,6 +40,11 @@ Horror
 Commercial "data"-sheet
   * http://support.hkvstar.com/file/Hi3518E.pdf
 
+Software
+  * ONVIF Device Manager : https://sourceforge.net/projects/onvifdm/
+
+
+
 
 ```
 # cat /proc/cpuinfo
@@ -194,5 +199,3 @@ if [ -f /mnt/custom/extapp.sh ];then
 fi
 dvrHelper /lib/modules /usr/bin/Sofia 127.0.0.1 9578 1 &
 ```
-
-
