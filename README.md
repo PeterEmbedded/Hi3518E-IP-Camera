@@ -43,7 +43,9 @@ Commercial "data"-sheet
 Software
   * ONVIF Device Manager : https://sourceforge.net/projects/onvifdm/
 
-
+3D camera model
+  * https://www.tinkercad.com/things/fK5cTVAiQJK-hi3518e-ip-camera
+  Use this to create your own camera housing
 
 
 ```
