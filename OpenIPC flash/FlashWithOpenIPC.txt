@@ -1,0 +1,12 @@
+https://openipc.org/cameras/vendors/hisilicon/socs/hi3518ev100
+
+Fix network
+
+For U-boot network:
+    setenv phyaddru 1
+    setenv phyaddrd 2
+    setenv mdio_intf rmii
+    saveenv
+
+For Linux network:
+    setenv extras 'hieth.phyaddru=1 hieth.phyaddrd=2'; saveenv
