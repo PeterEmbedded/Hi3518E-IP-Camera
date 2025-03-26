@@ -37,9 +37,6 @@ Horror
   * The password must be shorter than 6 char!
     In case you enter a longer password the CMS will truncate to the first 6 chars... Without any notification!
 
-Commercial "data"-sheet
-  * http://support.hkvstar.com/file/Hi3518E.pdf
-
 Software
   * ONVIF Device Manager : https://sourceforge.net/projects/onvifdm/
 
